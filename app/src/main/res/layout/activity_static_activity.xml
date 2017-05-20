@@ -6,4 +6,33 @@
     android:layout_height="match_parent"
     tools:context="akhil.indetermenancy_of_structure.Static_activity">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pin Joint"
+        tools:layout_editor_absoluteY="163dp"
+        tools:layout_editor_absoluteX="148dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rigid joint"
+        tools:layout_editor_absoluteY="264dp"
+        tools:layout_editor_absoluteX="148dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="85dp"
+        android:layout_height="39dp"
+        android:text="Hybrid" />
 </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,13 @@
+package akhil.indetermenancy_of_structure;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Hybrid_activity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_hybrid_activity);
+    }
+}

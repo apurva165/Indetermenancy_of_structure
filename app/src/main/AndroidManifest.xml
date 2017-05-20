@@ -16,7 +16,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Kinematic_activity" />
-        <activity android:name=".Static_activity"></activity>
+        <activity android:name=".Static_activity" />
+        <activity android:name=".Pin_joint_activity" />
+        <activity android:name=".Rigid_joint_activity" />
+        <activity android:name=".Hybrid_activity"></activity>
     </application>
 
 </manifest>
