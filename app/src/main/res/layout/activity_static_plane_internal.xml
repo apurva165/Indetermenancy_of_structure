@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_other_calculations"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="akhil.indetermenancy_of_structure.Static_plane_internal">
+        <Button
+            android:text="back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/staticPlaneInternalButton" />
+        <TextView
+            android:id="@+id/enterM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/button5"
+            android:text="Enter valur Of M"
+            android:textSize="20dp"
+            android:layout_marginTop="100px" />
+        <EditText
+            android:id="@+id/valueOfM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/enterM"
+            android:focusable="true"
+            android:hint="value of M"
+            android:inputType="phone"/>
+        <TextView
+            android:id="@+id/enterJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/valueOfM"
+            android:layout_centerHorizontal="true"
+            android:text="Enter value Of J"
+            android:textSize="20dp"/>
+        <EditText
+            android:id="@+id/valueOfJ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/enterJ"
+            android:focusable="true"
+            android:hint="VAlue of J"
+            android:inputType="phone"/>
+
+        <Button
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/statcPlaneInternalResult"
+            android:layout_below="@+id/valueOfJ"
+            />
+
+        <EditText
+            android:id="@+id/staticPlaneInternalResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/statcPlaneInternalResult"
+            android:focusable="true"
+            android:hint="Result"
+            android:inputType="phone"/>
+    </RelativeLayout>
+</ScrollView>

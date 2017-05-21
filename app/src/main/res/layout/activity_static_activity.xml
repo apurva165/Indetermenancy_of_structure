@@ -19,20 +19,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pin Joint"
-        tools:layout_editor_absoluteY="163dp"
-        tools:layout_editor_absoluteX="148dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintVertical_bias="0.526" />
 
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Rigid joint"
-        tools:layout_editor_absoluteY="264dp"
-        tools:layout_editor_absoluteX="148dp" />
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/button3"
+        android:layout_marginLeft="-34dp"
+        android:layout_marginBottom="94dp" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="85dp"
-        android:layout_height="39dp"
-        android:text="Hybrid" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hybrid"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/button4"
+        android:layout_marginLeft="-34dp"
+        android:layout_marginBottom="94dp" />
+
 </android.support.constraint.ConstraintLayout>
